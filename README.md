@@ -1,5 +1,5 @@
 # 8-Piece Puzzle Solver
-![8puzzlegame](https://user-images.githubusercontent.com/63576010/219436487-3364acfa-33d2-492f-ac28-40ac823f97c2.png)
+![8puzzlegame](https://user-images.githubusercontent.com/63576010/224524425-0b2599d0-cc81-4811-94e4-3db08ab0bda3.png)
 
 ## About
 The 8-piece-puzzle is a sliding puzzle that consists of a 3x3 grid with eight numbered tiles and one blank space. The eight numbered tiles are initially placed in a random order within the grid, and the objective of the puzzle is to rearrange the tiles by sliding them into the blank space until they are in ascending order, with the blank space in the bottom right corner. The puzzle is a classic problem in artificial intelligence and has been used to demonstrate various algorithms such as breadth-first search, depth-first search, and A\* search. It is also a popular puzzle game that has been enjoyed by many people for generations.
@@ -16,4 +16,4 @@ This project implements the breadth-first search, depth-first search, and A\* se
 4. To examine and/or compare performance of the algorithms, use the --dump flag to write performance metrics to a .txt file
    python solver.py --initial_state [some state] --goal_state [some state] --heuristic_search a\* --dump True
    
-![run](https://user-images.githubusercontent.com/63576010/219437899-42e9f799-62d3-4190-837f-73a69741207c.png)
+![solution guide](https://user-images.githubusercontent.com/63576010/224524444-9f3f1778-b321-443c-b3c3-747219a8ecce.png)
